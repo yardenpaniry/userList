@@ -89,7 +89,7 @@
     background-color: #f2f2f2;
   }
   img.userPicture {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 29px;
   }
   .emailLink {
