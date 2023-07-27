@@ -96,7 +96,8 @@
     align-items: center;
     box-shadow: black 1px 1px 9px 0px;
     background-color: #fdfdfd;
-}
+    overflow-x: auto;
+  }
   .usersList {
     padding: 1% 6% 2% 6%;
     color: black;
