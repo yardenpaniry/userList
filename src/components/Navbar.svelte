@@ -35,7 +35,7 @@
 	.navbar {
 	  background-color: #333;
 	  color: #fff;
-	  padding: 10px 20px;
+	  padding: 1% 2%;
 	  display: flex;
 	  justify-content: space-between;
 	}
@@ -78,10 +78,12 @@
         background: #f0f0f0;
         border-radius: 8px;
     }
-  
+	.navbar-links:last-child {
+    	margin-right: 0;
+	}
 	@media screen and (max-width: 700px) {
         .navbar-container{
             width: 100%;
         }
-}
-  </style>
+	}
+</style>
