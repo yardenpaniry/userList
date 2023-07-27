@@ -99,7 +99,7 @@
     overflow-x: auto;
   }
   .usersList {
-    padding: 1% 6% 2% 6%;
+    /* padding: 1% 6% 2% 6%; */
     color: black;
     font-family: sans-serif;
     text-align: center;
