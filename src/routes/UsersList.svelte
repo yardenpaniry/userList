@@ -78,7 +78,7 @@
     <button on:click={prevPage}>Prev</button>
     {#if totalPages>0}
         {#each Array(totalPages) as _, i}
-        <button on:click={()=>getPage(i)}>{i+1}</button>
+        <button class={(i === currentPage) ? "currentPage":""} on:click={()=>getPage(i)}>{i+1}</button>
         {/each}
     {/if}
 
@@ -115,6 +115,9 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+  }
+  button.currentPage {
+    background-color: #c8c4c4;
   }
 
 </style>

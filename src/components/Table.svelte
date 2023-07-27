@@ -73,6 +73,7 @@
     width: 100%;
     border-collapse: collapse;
     border: 1px solid #cccccc;
+    text-align-last: center;
   }
 
   th,
