@@ -102,6 +102,7 @@
     color: black;
     font-family: sans-serif;
     text-align: center;
+    width: 100%;
   }
   .paginationButtons button:hover {
     background: silver;
