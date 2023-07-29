@@ -30,7 +30,6 @@
     <tr>
       <th></th>
       <th>Name</th>
-      <th>Phone</th>
       <th>Email</th>
       <th>User ID</th>
     </tr>
@@ -59,7 +58,6 @@
           user.lastName} {user.lastName} {:else} no name {/if}</a
         >
       </td>
-      <td><a href={`/#/UserDetails/${user.userId}`}>{user.phone}</a></td>
       <td><a href={`/#/UserDetails/${user.userId}`} class="emailLink">{user.email}</a></td>
       <td><a href={`/#/UserDetails/${user.userId}`}>{user.userId}</a></td>
     </tr>

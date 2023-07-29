@@ -71,7 +71,7 @@
 	  color: #fff;
 	  font-size: 16px;
 	  transition: color 0.2s ease;
-      padding: 3px 10px;
+      padding: 3px 5px;
 	}
     .navbar-links li a:hover {
         color: #333333;

@@ -136,16 +136,22 @@
   }
 
   .itemDetail {
-    border: 1px solid black;
+    box-shadow: #0000007a 1px 1px 9px 0px;
+    border: 1px solid #00000085;
     border-radius: 10px;
     /* width: 137px; */
-    padding: 4px 15px;
+    padding: 4px 5px;
     min-height: 35%;
+    /* width: 100%; */
+    overflow-y: auto;
   }
 
   .item {
     width: 40%;
     margin: 1%;
+  }
+  .item:last-child {
+    width: 87%;
   }
   .homeBackButtons {
     display: flex;
